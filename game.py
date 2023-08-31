@@ -25,15 +25,15 @@ while attempts > 0:
         else:
             print("You win!", player, " ", computer)
             player_score += 1
-    elif player == "ورقة":
-        if computer == "مقص":
+    elif player == "Paper":
+        if computer == "Scissors":
             print("You lose!", computer, " ", player)
             computer_score += 1
         else:
             print("You win!", player, " ", computer)
             player_score += 1
-    elif player == "مقص":
-        if computer == "حجر":
+    elif player == "Scissors":
+        if computer == "Rock":
             print("You lose!", computer, " ", player)
             computer_score += 1
         else:
